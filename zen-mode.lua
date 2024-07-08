@@ -1,16 +1,10 @@
 return {
-  {
-    "folke/zen-mode.nvim",
-    opts = {
-      plugins = {
-        alacritty = {
-          enabled = true,
-          font = "16",
-        },
+  "folke/zen-mode.nvim",
+  opts = {
+    plugins = {
+      kitty = {
+        enabled = true,
       },
     },
-  },
-  {
-    "folke/twilight.nvim",
   },
 }
